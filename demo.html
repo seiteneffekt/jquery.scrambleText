@@ -1,17 +1,17 @@
 <html>
 <head>
-  <title>jquery.scramble demo</title>
+  <title>jquery.scrambleText demo</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
   <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-  <script type="text/javascript" src="jquery.scramble.js"></script>
+  <script type="text/javascript" src="jquery.scrambleText.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $('button.scramble.default').click(function() {
-        $('div.default h1, div.default p').scramble();
+      $('button.scrambleText.default').click(function() {
+        $('div.default h1, div.default p').scrambleText();
       });
-      $('button.scramble.de').click(function() {
-        $('div.de h1, div.de p').scramble({
+      $('button.scrambleText.de').click(function() {
+        $('div.de h1, div.de p').scrambleText({
           regex: /[A-Za-zÄÖÜäöüß]+/g
         });
       });
@@ -27,8 +27,8 @@
     <p>The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM-data-structures; and influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo.</p>
     <p>Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX framework and ASP.NET MVC Framework while Nokia has integrated it into their Web Run-Time widget development platform. jQuery has also been used in MediaWiki since version 1.16.</p>
     <span class="label label-default pull-right">Source: http://en.wikipedia.org/wiki/JQuery</span>
-    <button class="btn btn-primary btn-large scramble default">
-      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE
+    <button class="btn btn-primary btn-large scrambleText default">
+      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE TEXT
     </button>
   </div>
 
@@ -44,8 +44,8 @@
     <p>Der ADAC schätzt, dass allein in Deutschland jährlich etwa 10.000 Unfälle auf das Konto von Müttern gehen, die vergessen haben, ihren Sohn oder ihre Tochter daran zu erinnern, vorsichtig zu fahren. Die Dunkelziffer könnte sogar noch deutlich höher liegen, weil es vielen schwerfällt, die eigene Mutter zu beschuldigen.</p>
     <p>Gerda W., die ihre Unachtsamkeit damit begründet, dass sie abgelenkt war, weil sie "dem Jungen doch noch ein Stück Kuchen mitgeben wollte", muss nun für den verursachten Schaden und die Krankenhauskosten aufkommen. Außerdem erhält sie vier Punkte in der Verkehrssünderkartei in Flensburg sowie drei Monate Fahrverbot.</p>
     <span class="label label-default pull-right">Source: http://www.der-postillon.com/2012/05/mann-baut-schlimmen-unfall-weil-seine.html</span>
-    <button class="btn btn-primary btn-large scramble de">
-      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE
+    <button class="btn btn-primary btn-large scrambleText de">
+      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE TEXT
     </button>
   </div>
 

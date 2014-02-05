@@ -1,7 +1,7 @@
 {
-  "name": "scramble",
+  "name": "scrambleText",
   "version": "1.0.0",
-  "title": "jQuery scramble",
+  "title": "jQuery scrambleText",
   "author": {
     "name": "Thomas Reuter",
     "email": "info@seiteneffekt.com",
@@ -26,8 +26,8 @@
     "jquery",
     "plugin"
   ],
-  "docs": "https://github.com/seiteneffekt/jquery.scramble",
-  "demo": "http://showroom.seiteneffekt.com/jquery/scramble/demo.html",
-  "download": "https://github.com/seiteneffekt/jquery.scramble",
-  "bugs": "https://github.com/seiteneffekt/jquery.scramble/issues"
+  "docs": "https://github.com/seiteneffekt/jquery.scrambleText",
+  "demo": "http://showroom.seiteneffekt.com/jquery/scrambleText/demo.html",
+  "download": "https://github.com/seiteneffekt/jquery.scrambleText",
+  "bugs": "https://github.com/seiteneffekt/jquery.scrambleText/issues"
 }

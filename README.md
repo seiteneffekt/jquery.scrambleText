@@ -1,5 +1,5 @@
-jquery.scramble
-===============
+jquery.scrambleText
+===================
 
 jQuery plug-in that scrambles a given text randomly but keeps it surprisingly readable
 
@@ -12,7 +12,7 @@ jQuery plug-in that scrambles a given text randomly but keeps it surprisingly re
 ## Usage
 
 ```js
-$('p').scramble();
+$('p').scrambleText();
 ```
 
 ## Configuration
@@ -20,7 +20,7 @@ $('p').scramble();
 You can optionally configure the plug-in to set another regular expression to sepearte your text in single words, e.g. to allow special characters (see demo.html with German text).
 
 ```js
-$('h1, p').scramble({
+$('h1, p').scrambleText({
   regex: /[A-Za-zÄÖÜäöüß]+/g
 });
 ```
