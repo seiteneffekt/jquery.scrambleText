@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>jquery.scramble demo</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script type="text/javascript" src="jquery.scramble.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('button.scramble.default').click(function() {
+        $('div.default h1, div.default p').scramble();
+      });
+      $('button.scramble.de').click(function() {
+        $('div.de h1, div.de p').scramble({
+          regex: /[A-Za-zÄÖÜäöüß]+/g
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- default demo -->
+  <div class="container default">
+    <h1>jQuery</h1>
+    <p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It was released in January 2006 at BarCamp NYC by John Resig. It is currently developed by a team of developers led by Dave Methvin. Used by over 80% of the 10,000 most visited websites, jQuery is the most popular JavaScript library in use today.</p>
+    <p>jQuery is free, open source software, licensed under the MIT License. jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, theme-able widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and web applications.</p>
+    <p>The set of jQuery core features - DOM element selections, traversal and manipulation - enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM-data-structures; and influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo.</p>
+    <p>Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX framework and ASP.NET MVC Framework while Nokia has integrated it into their Web Run-Time widget development platform. jQuery has also been used in MediaWiki since version 1.16.</p>
+    <span class="label label-default pull-right">Source: http://en.wikipedia.org/wiki/JQuery</span>
+    <button class="btn btn-primary btn-large scramble default">
+      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE
+    </button>
+  </div>
+
+  <hr/>
+
+  <!-- German text demo -->
+  <div class="container de">
+    <h1>Mann baut schlimmen Unfall, weil seine Mutter nicht "Fahr vorsichtig!" gesagt hat</h1>
+    <p>Eine unachtsame Mutter aus der Nähe von Trier hat einen schlimmen Verkehrsunfall mit vier Schwerverletzten und einem hohen Sachschaden verursacht. Zwar saß die Frau nicht selbst am Steuer, doch sie hatte vergessen, ihren 42-jährigen Sohn bei der Verabschiedung nach einem Besuch daran zu erinnern, er solle vorsichtig fahren – ein Versäumnis mit fatalen Folgen.</p>
+    <p>Kein Wunder, dass Thomas W., der noch immer im Krankenhaus liegt, seiner Mutter Gerda W. (63) schwere Vorwürfe macht: "Sie sagt sonst immer, dass ich vorsichtig fahren soll – und zwar seit ich den Führerschein habe." Doch dieses Mal wusste Thomas W. nicht, auf welche Weise er sein Fahrzeug führen sollte. "Ich habe noch überlegt. Soll ich langsam fahren oder schnell? Offensiv oder defensiv?"</p>
+    <p>Der verwirrte Mann entschied sich letztlich, Vollgas zu geben und mit geschlossenen Augen Schlangenlinien zu fahren – bis er in ein entgegenkommendes Fahrzeug krachte. Alle drei Insassen wurden schwer verletzt.</p>
+    <p>Thomas W., der froh ist, dass wegen seiner rücksichtslosen Mutter niemand ums Leben gekommen ist, kann auf eine längere Geschichte der Vernachlässigung zurückblicken: "Das war fast so wie damals, als ich 22 war und mit Alkoholvergiftung ins Krankenhaus kam, weil sie vergessen hatte, mir vor einer Feier zu sagen, ich solle nicht so viel trinken – oder als ich letztes Jahr fast im Schnee erfroren bin, weil sie nicht gesagt hat, ich solle mich warm anziehen."</p>
+    <p>Der ADAC schätzt, dass allein in Deutschland jährlich etwa 10.000 Unfälle auf das Konto von Müttern gehen, die vergessen haben, ihren Sohn oder ihre Tochter daran zu erinnern, vorsichtig zu fahren. Die Dunkelziffer könnte sogar noch deutlich höher liegen, weil es vielen schwerfällt, die eigene Mutter zu beschuldigen.</p>
+    <p>Gerda W., die ihre Unachtsamkeit damit begründet, dass sie abgelenkt war, weil sie "dem Jungen doch noch ein Stück Kuchen mitgeben wollte", muss nun für den verursachten Schaden und die Krankenhauskosten aufkommen. Außerdem erhält sie vier Punkte in der Verkehrssünderkartei in Flensburg sowie drei Monate Fahrverbot.</p>
+    <span class="label label-default pull-right">Source: http://www.der-postillon.com/2012/05/mann-baut-schlimmen-unfall-weil-seine.html</span>
+    <button class="btn btn-primary btn-large scramble de">
+      <span class="glyphicon glyphicon-refresh"></span> SCRAMBLE
+    </button>
+  </div>
+
+  <hr/>
+</body>

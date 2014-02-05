@@ -1,0 +1,33 @@
+{
+  "name": "scramble",
+  "version": "1.0.0",
+  "title": "jQuery scramble",
+  "author": {
+    "name": "Thomas Reuter",
+    "email": "info@seiteneffekt.com",
+    "homepage": "http://www.seiteneffekt.com/"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.0"
+  },
+  "description": "jQuery plug-in that scrambles a given text randomly but keeps it surprisingly readable",
+  "keywords": [
+    "text",
+    "manipulation",
+    "scramble",
+    "shuffle",
+    "fun",
+    "jquery",
+    "plugin"
+  ],
+  "docs": "https://github.com/seiteneffekt/jquery.scramble",
+  "demo": "http://showroom.seiteneffekt.com/jquery/scramble/demo.html",
+  "download": "https://github.com/seiteneffekt/jquery.scramble",
+  "bugs": "https://github.com/seiteneffekt/jquery.scramble/issues"
+}
